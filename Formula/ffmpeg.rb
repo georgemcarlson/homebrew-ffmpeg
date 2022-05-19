@@ -162,7 +162,7 @@ class Ffmpeg < Formula
 
     # These librares are GPL-incompatible, and require ffmpeg be built with
     # the "--enable-nonfree" flag, which produces unredistributable libraries
-    args << "--enable-nonfree" if build.with?("decklink") || build.with?("fdk-aac") || build.with?("openssl")
+    args << "--enable-nonfree"
 
     if build.with? "decklink"
       args << "--enable-decklink"
