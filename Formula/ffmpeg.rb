@@ -2,7 +2,7 @@ class Ffmpeg < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
   url "https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2"
-  version "5.0.1-with-options" # to distinguish from homebrew-core's ffmpeg
+  version "ffmpeg-snapshot-with-options" # to distinguish from homebrew-core's ffmpeg
   license "GPL-2.0-or-later"
   revision 1
   head "https://github.com/FFmpeg/FFmpeg.git"
