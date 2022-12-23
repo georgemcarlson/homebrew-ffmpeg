@@ -105,6 +105,7 @@ class Ffmpeg < Formula
       --enable-gpl
       --enable-libaom
       --enable-libsvtav1
+      --enable-libvmaf
       --enable-libdav1d
       --enable-libmp3lame
       --enable-libopus
